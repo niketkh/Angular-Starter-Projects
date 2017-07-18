@@ -3,12 +3,12 @@ import { Hero } from '../hero.model';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-hero-list',
-  templateUrl: './hero-list.component.html',
-  styleUrls: ['./hero-list.component.css'],
+  selector: 'app-heroes',
+  templateUrl: './heroes.component.html',
+  styleUrls: ['./heroes.component.css'],
   providers: [HeroService]
 })
-export class HeroListComponent implements OnInit {
+export class HeroesComponent implements OnInit {
 
   constructor(private heroService: HeroService) { }
 
